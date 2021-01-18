@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('pexels-karolina-grabowska-5412200.jpg') no-repeat center top/cover;
+    background-color: #cee5c9;
+}
+
+.weight-calculator {
+    float: right;
+    padding: 10% 15%;
+}
+
+.name-and-input {
+    text-align: center;
+}
+
+.weight-calculator h1 {
+    font-family: 'Potta One', cursive;
+    font-size: 2em;
+    color: #40347a;
+    text-align: center;
+}
+
+.weight-calculator input {
+    padding:  10px 50px;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid #000;
+    margin-top: 1rem;
+
+
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.grams-output,
+.kg-output,
+.oz-output {
+    
+    padding: 15px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+.grams-output span,
+.kg-output span,
+.oz-output span {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+}
+
+.grams-output .grams-name,
+.kg-output .kg-name,
+.oz-output .oz-name {
+    font-weight: 900;
+    font-size: 2em;
+    color: #23c10b;
+}
+
+.grams-output {
+    border: 3px solid #332c03;
+}
+
+.kg-output {
+    border: 3px solid #c10b0e;
+}
+
+.oz-output {
+    border: 3px solid #0b14c1;
+}
